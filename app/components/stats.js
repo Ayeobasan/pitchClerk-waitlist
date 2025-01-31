@@ -3,7 +3,7 @@ export function Stats() {
     { number: "2,000+", label: "Artists Onboarded" },
     { number: "385+", label: "Pitches Submitted" },
     { number: "70%", label: "Success Rate" },
-    { number: "$1,700+", label: "Revenue Generated" },
+    { number: "+150", label: "sucessful placement" },
   ]
 
   return (

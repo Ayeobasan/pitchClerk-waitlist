@@ -11,8 +11,7 @@ export function AboutUs() {
             </p>
             <p className="text-lg text-gray-700">
               Headquartered and operational in South Africa, our solution serves as a vital bridge between talented
-              artists seeking exposure and esteemed music publications, curators, and DSPs. We've set up an office in
-              Johannesburg, South Africa to better review and manage catalogs from the region.
+              artists seeking exposure and esteemed music publications, curators, and DSPs.
             </p>
           </div>
         </div>

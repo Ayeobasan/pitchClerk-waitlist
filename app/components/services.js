@@ -49,7 +49,7 @@ export function Services() {
     <section className="py-16">
       <div className="sm:container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Our Services</h2>
+          <h2 className="text-3xl font-bold mb-4">Our Pitch Tool</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Join top artists and creators worldwide who use Pitchclerk to get in front of editors and industry
             professionals. We are dedicated to advocating for emerging artists and helping them reach broader audiences.
