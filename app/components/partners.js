@@ -4,10 +4,10 @@ import Image from "next/image"
 
 export function Partners() {
   const partners = [
-    { name: "Virgin Music Group", logo: "/partner14.jpg", width: 200 },
-    { name: "Apprise Music", logo: "/partner1.jpg", width: 180 },
-    { name: "Music Platform", logo: "/partner2.jpg", width: 160 },
-    { name: "1Lane", logo: "/partner3.jpg", width: 150 },
+    { name: "Virgin Music Group", logo: "partner14.jpg", width: 200 },
+    { name: "Apprise Music", logo: "partner1.jpg", width: 180 },
+    { name: "Music Platform", logo: "partner2.jpg", width: 160 },
+    { name: "1Lane", logo: "partner3.jpg", width: 150 },
   ]
 
   // Duplicate partners for smooth infinite scrolling
