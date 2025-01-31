@@ -10,6 +10,9 @@ import { Footer } from "./components/footer"
 import { CTA } from "./components/cta"
 import { DashboardPreview } from "./components/dashboardView"
 import { MusicFeatures } from "./components/features"
+import { AboutUs } from "./components/aboutus"
+import { Team } from "./components/team"
+import { Partners } from "./components/partners"
 
 export default function Home() {
   return (
@@ -18,10 +21,13 @@ export default function Home() {
       <main>
         <Hero />
         <DashboardPreview />
+        <AboutUs />
         <Stats />
         <Services />
         <MusicFeatures />
         <Process />
+        <Team />
+        <Partners/>
         <Testimonials />
         <FAQ />
         <CTA />

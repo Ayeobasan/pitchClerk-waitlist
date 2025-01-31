@@ -3,21 +3,45 @@ import { Check } from "lucide-react"
 export function Services() {
   const services = [
     {
-      title: "Music Distribution",
-      description:
-        "Get your music on all major streaming platforms including Spotify, Apple Music, Amazon Music, and more.",
-      features: ["Worldwide distribution", "Real-time analytics", "Revenue tracking", "Marketing support"],
+      title: "Distribution & Marketing",
+      description: "Submit a pitch to aggregators for distribution and marketing deals.",
+      features: [
+        "Access to major aggregators",
+        "Marketing strategy support",
+        "Global distribution channels",
+        "Performance tracking",
+      ],
     },
     {
-      title: "Artist Development",
-      description:
-        "Comprehensive artist development program to help you grow your career and reach your full potential.",
-      features: ["Professional coaching", "Image consulting", "Performance training", "Career strategy"],
+      title: "DSP Playlist Placement",
+      description: "Submit your music for playlist placement to DSP editors and curators across all genres.",
+      features: [
+        "Targeted playlist submissions",
+        "Genre-specific curation",
+        "Increased visibility",
+        "Streaming growth opportunities",
+      ],
     },
     {
-      title: "Marketing & Promotion",
-      description: "Strategic marketing campaigns to increase your visibility and grow your fanbase.",
-      features: ["Social media management", "PR campaigns", "Playlist pitching", "Content strategy"],
+      title: "Press, Radio & Television Feature",
+      description:
+        "Pitch releases for radio placement and articles for press platforms across press & radio stations globally.",
+      features: [
+        "Media exposure opportunities",
+        "Radio airplay submissions",
+        "Press release distribution",
+        "TV feature pitching",
+      ],
+    },
+    {
+      title: "Label & Advance",
+      description: "Submit your projects and catalogs for review and receive advances from our partners.",
+      features: [
+        "Label partnership opportunities",
+        "Catalog valuation",
+        "Advance funding options",
+        "Career development support",
+      ],
     },
   ]
 
@@ -27,10 +51,11 @@ export function Services() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Our Services</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We provide end-to-end services to help artists succeed in today's competitive music industry
+            Join top artists and creators worldwide who use Pitchclerk to get in front of editors and industry
+            professionals. We are dedicated to advocating for emerging artists and helping them reach broader audiences.
           </p>
         </div>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <div key={index} className="bg-white p-6 rounded-xl shadow-sm border">
               <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
