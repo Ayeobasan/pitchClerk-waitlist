@@ -26,7 +26,7 @@ export default function Home() {
         <Services />
         <MusicFeatures />
         <Process />
-        <Team />
+        {/* <Team /> */}
         <Partners/>
         <Testimonials />
         <FAQ />

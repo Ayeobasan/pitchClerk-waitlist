@@ -4,14 +4,14 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export function FAQ() {
   const faqs = [
     {
-      question: "What genres do you work with?",
+      question: "What is Pitchclerk?",
       answer:
-        "We work with artists across all genres, including pop, hip-hop, R&B, electronic, rock, and more. Our team has experience in developing artists in various musical styles.",
+        "Pitchclerk is a music pitch tool and aggregator that helps artists secure playlist placements, editorial features, press coverage, sync licensing, and publishing deals. We connect artists with industry opportunities while simplifying music discovery across DSPs and press outlets.",
     },
     {
-      question: "How does the submission process work?",
+      question: "⁠Who can use Pitchclerk?",
       answer:
-        "Submit your demo through our online platform. Our team reviews submissions weekly and responds within 14 days with detailed feedback and next steps if we feel there's a potential fit.",
+        "Pitchclerk is designed for independent artists, music labels, producers, managers, and anyone looking to Pitch their  music,  Whether you're a rising star or an established act, Pitchclerk provides tools to help your music gain traction.",
     },
     {
       question: "What does your artist development program include?",
@@ -19,14 +19,19 @@ export function FAQ() {
         "Our program includes vocal training, songwriting workshops, image consulting, media training, and performance coaching. We create a customized development plan based on each artist's needs.",
     },
     {
-      question: "How do you handle music distribution?",
+      question: "How does Pitchclerk help me get playlisted?",
       answer:
-        "We distribute your music to all major streaming platforms and digital stores worldwide. Our team handles all the technical aspects while ensuring you maintain your rights and receive fair compensation.",
+        "Pitchclerk partners with playlist curators, DSPs, and press outlets to pitch your music directly to decision-makers, increasing your chances of being featured on major playlists and editorial selections.",
     },
     {
-      question: "What marketing support do you provide?",
+      question: "Does Pitchclerk guarantee placements?",
       answer:
-        "We provide comprehensive marketing support including social media management, PR campaigns, playlist pitching, content creation, and advertising strategies tailored to your target audience.",
+        "Yes! Pitchclerk provides a dashboard where you can monitor the status of your pitches, see which Platforms and and editors have supported your pitch",
+    },
+    {
+      question: "Does Pitchclerk support artists outside of South Africa?",
+      answer:
+        "Yes! While we are based in South Africa, we serve artists across Sub-Saharan Africa and beyond. If you create great music, we will help you get heard, no matter where you are!",
     },
   ]
 
@@ -36,7 +41,7 @@ export function FAQ() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Find answers to common questions about our services and process
+            Pitchclerk FAQ – Empowering Artists, Simplifying Music Discovery
           </p>
         </div>
         <div className="max-w-3xl mx-auto">

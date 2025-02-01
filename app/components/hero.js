@@ -18,7 +18,7 @@ export function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="bg-purple-600 text-white hover:bg-purple-700">
-            Submit Your Demo
+            Submit Your Pitch
           </Button>
           <Button size="lg" variant="outline">
             Schedule a Consultation
