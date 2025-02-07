@@ -3,17 +3,11 @@ import Link from "next/link"
 
 export function Footer() {
   return (
-    <footer className="py-12 bg-white">
+    <footer className="pb-12 bg-white">
       <div className="sm:container mx-auto px-4">
         <div className="flex flex-col items-center">
           <Link href="/" className="flex items-center mb-9">
-            <Image
-              src={`/logo.svg`}
-              alt="PitchClerk Logo"
-              className="h-auto w-auto"
-              width={42}
-              height={42}
-            />
+            <Image src={`/logo.svg`} alt="PitchClerk Logo" className="h-auto w-auto" width={42} height={42} />
           </Link>
           <nav className="flex flex-wrap justify-center gap-6 mb-8">
             <Link href="#" className="text-sm text-gray-600 hover:text-gray-900">
@@ -28,7 +22,9 @@ export function Footer() {
             <Link href="#" className="text-sm text-gray-600 hover:text-gray-900">
               Terms of Service
             </Link>
+
           </nav>
+          <div className="text-sm text-gray-600 text-center mb-4">Address: Johannesburg, South Africa</div>
           <div className="text-center mb-8 space-y-5">
             <div className="text-sm text-gray-600 mb-2">Stay in touch</div>
             <div className="flex justify-center gap-4">
@@ -53,7 +49,7 @@ export function Footer() {
               </Link>
             </div>
           </div>
-          <div className="text-sm text-gray-600">© pitchclerk</div>
+          <div className="text-sm text-gray-600 mb-4">© Pitchclerk (PTY) LTD</div>
         </div>
       </div>
     </footer>

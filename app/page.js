@@ -28,7 +28,7 @@ export default function Home() {
         <Process />
         {/* <Team /> */}
         <Partners/>
-        <Testimonials />
+        {/* <Testimonials /> */}
         <FAQ />
         <CTA />
       </main>

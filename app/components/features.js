@@ -131,7 +131,7 @@ export function MusicFeatures() {
                   {/* ))} */}
                 </div>
               </div>
-              <div className='grid grid-cols-2 justify-center  items-center gap-2'>
+              <div className='grid xs:grid-cols-2 justify-center  items-center gap-2'>
                 <div className="bg-[#E9E9E9] w-full md:w-[100%] rounded-xl p-4 shadow-inner">
                   <div className="flex items-center justify-center mb-4">
                     <Image src="/sync.png" alt="Music Icon" width={200} height={200} className="w-full max-w-[200px] h-full" />

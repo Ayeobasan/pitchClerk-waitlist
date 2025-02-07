@@ -10,7 +10,7 @@ export function Hero() {
         </div>
         <h1 className="max-w-4xl mx-auto font-[Urbanist] text-4xl font-bold tracking-tight sm:text-6xl mb-6">
           Pitch Your Music, Get <span className="block">On Playlist And</span>
-          <span className="text-purple-600">Advance Your Career</span>
+          <span className="text-purple-600">Request advance</span>
         </h1>
         <p className="max-w-xl font-[Manrope] mx-auto text-lg text-[#656565]  mb-8">
           Empowering artists and simplifying music discovery. Connect directly with DSPs, publishers, labels, editors,
