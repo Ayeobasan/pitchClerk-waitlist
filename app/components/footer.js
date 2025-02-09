@@ -7,7 +7,7 @@ export function Footer() {
       <div className="sm:container mx-auto px-4">
         <div className="flex flex-col items-center">
           <Link href="/" className="flex items-center mb-9">
-            <Image src={`/logo.svg`} alt="PitchClerk Logo" className="h-auto w-auto" width={42} height={42} />
+            <Image src={`/WhatsApp_Image_2025-02-08_at_16.05.04__1_-removebg-preview.png`} alt="Pitchally Logo" className="h-auto w-auto" width={102} height={42} />
           </Link>
           <nav className="flex flex-wrap justify-center gap-6 mb-8">
             <Link href="#" className="text-sm text-gray-600 hover:text-gray-900">
@@ -24,7 +24,7 @@ export function Footer() {
             </Link>
 
           </nav>
-          <div className="text-sm text-gray-600 text-center mb-4">Address: Johannesburg, South Africa</div>
+          <div className="text-sm text-gray-600 text-center mb-4">Johannesburg, South Africa</div>
           <div className="text-center mb-8 space-y-5">
             <div className="text-sm text-gray-600 mb-2">Stay in touch</div>
             <div className="flex justify-center gap-4">
@@ -49,7 +49,7 @@ export function Footer() {
               </Link>
             </div>
           </div>
-          <div className="text-sm text-gray-600 mb-4">© Pitchclerk (PTY) LTD</div>
+          <div className="text-sm text-gray-600 mb-4">© Pitchally (PTY) LTD</div>
         </div>
       </div>
     </footer>

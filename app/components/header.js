@@ -24,7 +24,7 @@ export function Header() {
       <div className="sm:container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <Image src={`/logo.svg`} alt="PitchClerk Logo" className="h-auto w-auto" width={42} height={42} />
+            <Image src={`/pitchally.png`} alt="Pitchally Logo" className="h-auto w-auto" width={90} height={42} />
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
             <Link href="#" className="text-sm font-medium text-gray-600 hover:text-gray-900">

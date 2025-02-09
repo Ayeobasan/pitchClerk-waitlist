@@ -7,7 +7,7 @@ export function DashboardPreview() {
           <div className="bg-white overflow-hidden">
             <Image
               src={`/Hero.png`}
-              alt="PitchClerk dashboard"
+              alt="Pitchally dashboard"
               className="h-auto object-contain w-full"
               width={2000}
               height={2000}
