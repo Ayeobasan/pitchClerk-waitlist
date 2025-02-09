@@ -12,14 +12,16 @@ export function CTA() {
             <br />
             Creators Around The World
             <br />
-            Using Pitchclerk
+            Using Pitchally
           </h2>
         </div>
         <div className="max-w-md mx-auto">
-          <div className="text-center mb-4">Get early access!</div>
-          <div className="flex gap-2">
-            <Input type="email" placeholder="Enter Email Address" className="flex-1" />
-            <Button className="bg-purple-600 text-white hover:bg-purple-700">Join Waitlist</Button>
+          <Button className="bg-purple-600 mx-auto flex justify-center text-white hover:bg-purple-700">Get early access!</Button>
+
+          {/* <div className="text-center mb-4">Get early access!</div> */}
+          <div className="flex items-center gap-2">
+            {/* <Input type="email" placeholder="Enter Email Address" className="flex-1" /> */}
+            {/* <Button className="bg-purple-600 text-white hover:bg-purple-700">GET ACCESS</Button> */}
           </div>
         </div>
       </div>

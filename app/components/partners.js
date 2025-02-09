@@ -4,11 +4,11 @@ import Image from "next/image"
 
 export function Partners() {
   const partners = [
-    { name: "Virgin Music Group", logo: "/partner4.jpeg", width: 200 },
-    { name: "Apprise Music", logo: "/partner1.jpeg", width: 180 },
-    { name: "Music Platform", logo: "/partner2.jpeg", width: 160 },
+    { name: "Virgin Music Group", logo: "/virgin.png", width: 200 },
+    { name: "Apprise Music", logo: "/apprise.png", width: 180 },
+    { name: "Music Platform", logo: "/play.png", width: 200 },
     { name: "1Lane", logo: "/partner3.jpeg", width: 150 },
-    { name: "PitchClerkGroup", logo: "/partner5.jpeg", width: 200 },
+    { name: "PitchallyGroup", logo: "/pitch.png", width: 200 },
   ]
 
   // Duplicate partners for smooth infinite scrolling
@@ -38,7 +38,7 @@ export function Partners() {
                     src={partner.logo || "/placeholder.svg"}
                     alt={partner.name}
                     width={partner.width}
-                    height={80}
+                    height={"80"}
                     className="w-full object-contain"
                   />
                 </div>

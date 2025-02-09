@@ -5,7 +5,7 @@ export function AboutUs() {
           <h2 className="text-3xl font-bold mb-8 text-center">About Us</h2>
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg text-gray-700 mb-6">
-              Pitchclerk is empowering artists and simplifying the process of music discovery, revolutionizing the way
+              Pitchally is empowering artists and simplifying the process of music discovery, revolutionizing the way
               industry professionals discover new music. We offer artists a powerful pitch tool to get them in front of
               DSPs, publishers, labels, editors, and press outlets globally, with a focus on Sub-Saharan Africa.
             </p>
