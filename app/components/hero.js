@@ -18,11 +18,11 @@ export function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="bg-purple-600 text-white hover:bg-purple-700">
-            Submit Your Pitch
+          Request Access
           </Button>
-          <Button size="lg" variant="outline">
+          {/* <Button size="lg" variant="outline">
             Schedule a Consultation
-          </Button>
+          </Button> */}
         </div>
       </div>
     </section>
