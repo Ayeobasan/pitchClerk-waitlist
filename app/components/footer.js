@@ -49,7 +49,7 @@ export function Footer() {
               </Link>
             </div>
           </div>
-          <div className="text-sm text-gray-600 mb-4">© Pitchally (PTY) LTD</div>
+          <div className="text-sm text-gray-600 mb-4">© PitchClerk (PTY) LTD</div>
         </div>
       </div>
     </footer>

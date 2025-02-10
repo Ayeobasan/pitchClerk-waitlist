@@ -16,7 +16,7 @@ export function CTA() {
           </h2>
         </div>
         <div className="max-w-md mx-auto">
-          <Button className="bg-purple-600 mx-auto flex justify-center text-white hover:bg-purple-700">Get early access!</Button>
+          <Button className="bg-purple-600 mx-auto flex justify-center text-white hover:bg-purple-700">Request Access</Button>
 
           {/* <div className="text-center mb-4">Get early access!</div> */}
           <div className="flex items-center gap-2">
