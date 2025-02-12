@@ -52,7 +52,8 @@ export function Services() {
           <h2 className="text-3xl font-bold mb-4">Our Pitch Tool</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Join top artists and creators worldwide who use Pitchally to get in front of editors and industry
-            professionals. We are dedicated to advocating for emerging artists and helping them reach broader audiences.
+            professionals. 
+            {/* We are dedicated to advocating for emerging artists and helping them reach broader audiences. */}
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8">
