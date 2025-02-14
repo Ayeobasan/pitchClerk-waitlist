@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import Link from "next/link"
 
 export function Hero() {
   return (
@@ -18,7 +19,7 @@ export function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="bg-purple-600 text-white hover:bg-purple-700">
-          Request Access
+            <Link href="https://forms.office.com/r/UfFBNsvCJZ">Request Access</Link>
           </Button>
           {/* <Button size="lg" variant="outline">
             Schedule a Consultation
