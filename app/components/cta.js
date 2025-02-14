@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import Link from "next/link"
 
 export function CTA() {
   return (
@@ -16,7 +17,8 @@ export function CTA() {
           </h2>
         </div>
         <div className="max-w-md mx-auto">
-          <Button className="bg-purple-600 mx-auto flex justify-center text-white hover:bg-purple-700">Request Access</Button>
+          <Button className="bg-purple-600 mx-auto flex justify-center text-white hover:bg-purple-700">            <Link href="https://forms.office.com/r/UfFBNsvCJZ">Request Access</Link>
+          </Button>
 
           {/* <div className="text-center mb-4">Get early access!</div> */}
           <div className="flex items-center gap-2">
