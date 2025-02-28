@@ -1,3 +1,4 @@
+import { LinkedinIcon } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -34,10 +35,11 @@ export function Footer() {
               <Link href="#" className="text-gray-600 hover:text-gray-900">
                 <Image src="/tele.svg" alt="telegram" width={24} height={24} />
               </Link>
-              <Link href="#" className="text-gray-600 hover:text-gray-900">
-                <Image src="/dis.svg" alt="telegram" width={24} height={24} />
+              <Link href="https://www.linkedin.com/company/pitchclerk-music-group/?viewAsMember=true" className="text-gray-600 hover:text-gray-900">
+                {/* <Image src="/dis.svg" alt="telegram"/> */}
+                <LinkedinIcon width={24} height={24} />
               </Link>
-              <Link href="#" className="text-gray-900 hover:text-gray-900">
+              <Link href="https://www.instagram.com/pitchallyapp/" className="text-gray-900 hover:text-gray-900">
                 <span className="sr-only">Instagram</span>
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path
