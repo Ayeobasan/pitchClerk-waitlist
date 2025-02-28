@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Menu, X } from "lucide-react"
+import { InstagramIcon, LinkedinIcon, Menu, X } from "lucide-react"
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -44,11 +44,13 @@ export function Header() {
             <Link href="#" className="text-sm font-medium text-gray-600 hover:text-gray-900">
               <Image src="/tele.svg" alt="telegram" width={24} height={24} />
             </Link>
-            <Link href="#" className="text-sm font-medium text-gray-600 hover:text-gray-900">
-              <Image src="/dis.svg" alt="dicord" width={24} height={24} />
+            <Link href="https://www.linkedin.com/company/pitchclerk-music-group/?viewAsMember=true" className="text-sm font-medium text-gray-600 hover:text-gray-900">
+              {/* <Image src="/dis.svg" alt="dicord" width={24} height={24} /> */}
+              <LinkedinIcon width={24} height={24} />
             </Link>
-            <Link href="#" className="text-sm font-medium text-gray-600 hover:text-gray-900">
-              <Image src="/x.svg" alt="x" width={24} height={24} />
+            <Link href="https://www.instagram.com/pitchallyapp/" className="text-sm font-medium text-gray-600 hover:text-gray-900">
+              {/* <Image src="/x.svg" alt="x" width={24} height={24} /> */}
+              <InstagramIcon width={24} height={24} />
             </Link>
 
           </div>
